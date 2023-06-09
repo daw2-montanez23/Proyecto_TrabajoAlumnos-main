@@ -1,5 +1,5 @@
 export const footer = {
-    template: `<nav class="navbar navbar-expand-sm bg- fixed-bottom text-center justify-content-center">
-        <p>Francesc Montañez Rosell</p>
+    template: `<nav class="navbar navbar-expand-sm bg-success fixed-bottom text-center justify-content-center">
+        <p>FRANCESC MONTAÑEZ ROSELL</p>
     </nav>`
 }

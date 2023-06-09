@@ -19,7 +19,7 @@ export const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819_1280.png"
+              src="../assets/avatar.svg"
               alt="Logo"
               width="30"
               height="30"
