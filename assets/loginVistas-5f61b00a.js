@@ -1,4 +1,4 @@
-import { U as User, P as Perfil, m as menuUsuario, a as menuSuperior } from "./main-a48eeeaf.js";
+import { U as User, P as Perfil, m as menuUsuario, a as menuSuperior } from "./main-30978cab.js";
 const loginVistas = {
   template: `
     <div
@@ -63,7 +63,7 @@ const loginVistas = {
           menuSuperior.script(perfil.rol);
           window.location.href = "/#/home";
         } catch (error) {
-          alert("No se a podido Iniciar sesion con el usuario");
+          alert("ERROR AL INICIAR SESION CON EL USUARIO");
         }
       }
     });
