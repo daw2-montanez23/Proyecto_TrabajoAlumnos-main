@@ -6764,7 +6764,7 @@ const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="../assets/avatar.svg"
+              src="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819_1280.png"
               alt="Logo"
               width="30"
               height="30"
@@ -6989,7 +6989,7 @@ ${formEditarUsuario.template}
   }
 };
 const footer = {
-  template: `<nav class="navbar navbar-expand-sm bg-warning fixed-bottom text-center justify-content-center">
+  template: `<nav class="navbar navbar-expand-sm bg- fixed-bottom text-center justify-content-center">
         <p>Francesc Montañez Rosell</p>
     </nav>`
 };
@@ -12039,13 +12039,13 @@ const enrutador = {
     home: __vitePreload(() => import("./homeVista-74e385e9.js"), true ? [] : void 0, import.meta.url),
     // Usuarios
     adminUsuarios: __vitePreload(() => import("./adminVista-bbf3953d.js"), true ? [] : void 0, import.meta.url),
-    registro: __vitePreload(() => import("./registroVista-846a3360.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVistas-5f61b00a.js"), true ? [] : void 0, import.meta.url),
+    registro: __vitePreload(() => import("./registroVista-0ceb92ad.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVistas-c3277da9.js"), true ? [] : void 0, import.meta.url),
     // Proyectos
-    proyectos: __vitePreload(() => import("./proyectosVista-d1cc40cf.js"), true ? ["./proyectosVista-d1cc40cf.js","./proyecto-444b9747.js","./detalleProyectoVista-80abd81c.js","./editarProyectoVista-a092a8b0.js"] : void 0, import.meta.url),
-    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-db4c5466.js"), true ? ["./nuevoProyectoVista-db4c5466.js","./proyecto-444b9747.js"] : void 0, import.meta.url),
-    editarProyecto: __vitePreload(() => import("./editarProyectoVista-a092a8b0.js"), true ? ["./editarProyectoVista-a092a8b0.js","./proyecto-444b9747.js"] : void 0, import.meta.url),
-    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-80abd81c.js"), true ? ["./detalleProyectoVista-80abd81c.js","./proyecto-444b9747.js"] : void 0, import.meta.url)
+    proyectos: __vitePreload(() => import("./proyectosVista-69f9f7f9.js"), true ? ["./proyectosVista-69f9f7f9.js","./proyecto-00a0f9b7.js","./detalleProyectoVista-7260fbad.js","./editarProyectoVista-20fe0c33.js"] : void 0, import.meta.url),
+    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-b714a9eb.js"), true ? ["./nuevoProyectoVista-b714a9eb.js","./proyecto-00a0f9b7.js"] : void 0, import.meta.url),
+    editarProyecto: __vitePreload(() => import("./editarProyectoVista-20fe0c33.js"), true ? ["./editarProyectoVista-20fe0c33.js","./proyecto-00a0f9b7.js"] : void 0, import.meta.url),
+    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-7260fbad.js"), true ? ["./detalleProyectoVista-7260fbad.js","./proyecto-00a0f9b7.js"] : void 0, import.meta.url)
   },
   // Método que obtiene la ruta del navegador
   router: async () => {
