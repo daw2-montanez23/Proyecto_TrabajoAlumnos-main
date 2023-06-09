@@ -8,11 +8,11 @@ export const header = {
   template: `
   
 <!-- Navbar  -->
-<nav class="navbar navbar-expand-sm bg-light fixed-top">
+<nav class="navbar navbar-expand-sm bg-warning fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#/home">
       <img
-        src="../assets/logo.svg"
+        src="http://thenewcode.com/assets/svg/homer-simpson-scalable.svg"
         alt="Logo"
         width="30"
         height="30"

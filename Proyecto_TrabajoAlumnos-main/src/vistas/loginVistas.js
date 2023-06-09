@@ -91,7 +91,7 @@ export default {
              
 
             } catch (error) {
-              alert('No se a podido Iniciar sesion con el usuario')
+              alert('ERROR AL INICIAR SESION CON EL USUARIO')
             }
           }
         })

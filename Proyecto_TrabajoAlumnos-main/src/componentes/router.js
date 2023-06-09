@@ -12,19 +12,7 @@ export const enrutador = {
       nuevoProyecto: import('../vistas/proyectos/nuevoProyectoVista.js'),
       editarProyecto: import('../vistas/proyectos/editarProyectoVista.js'),
       detalleProyecto: import('../vistas/proyectos/detalleProyectoVista.js'),
-      misProyectos: import('../vistas/proyectos/misProyectosVista.js'),
-      // Enunciados
-      enunciados: import('../vistas/enunciados/enunciadosVista.js'),
-      nuevoEnunciado: import('../vistas/enunciados/nuevoEnunciadoVista.js'),
-      editarEnunciado: import('../vistas/enunciados/editarEnunciadoVista.js'),
-      detalleEnunciado: import('../vistas/enunciados/detalleEnunciadoVista.js'),
-      misEnunciados: import('../vistas/enunciados/misEnunciadosVista.js'),
-      // Rubricas
-      rubricas: import('../vistas/rubricas/rubricasVista.js'),
-      nuevoRubrica: import('../vistas/rubricas/nuevoRubricaVista.js'),
-      editarRubrica: import('../vistas/rubricas/editarRubricaVista.js'),
-      detalleRubrica: import('../vistas/rubricas/detalleRubricaVista.js'),
-      misRubricas: import('../vistas/rubricas/misRubricasVista.js')
+ 
     },
   
     // Método que obtiene la ruta del navegador
